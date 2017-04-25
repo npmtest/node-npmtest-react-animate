@@ -1,6 +1,6 @@
 # npmtest-react-animate
 
-#### test coverage for  [react-animate (v3.0.0)](https://github.com/elierotenberg/react-animate)  [![npm package](https://img.shields.io/npm/v/npmtest-react-animate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-animate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-animate.svg)](https://travis-ci.org/npmtest/node-npmtest-react-animate)
+#### basic test coverage for  [react-animate (v3.0.0)](https://github.com/elierotenberg/react-animate)  [![npm package](https://img.shields.io/npm/v/npmtest-react-animate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-animate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-animate.svg)](https://travis-ci.org/npmtest/node-npmtest-react-animate)
 
 #### react-animate ============= Allows to animate parts of a React components programmatically, without bypassing React internals and without altering the DOM directly.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-animate/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-react-animate/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-animate/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-animate/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-animate/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-animate/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-react-animate/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-react-animate/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-animate/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-animate/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-react-animate/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-animate/build/coverage.html/index.html)
 
@@ -83,7 +83,8 @@
     "scripts": {
         "test": "gulp test"
     },
-    "version": "3.0.0"
+    "version": "3.0.0",
+    "bin": {}
 }
 ```
 
